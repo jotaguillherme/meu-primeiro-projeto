@@ -1,0 +1,211 @@
+:root {
+    --branco-principal: #000000;
+    --cinza-secundario: #080808;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #e9e2e2;
+    --fonte-principal: 'Inter';
+    --fonte-destaque: #2a1cf5;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container__gruasQuantidade{
+    background-size: auto;
+    width: 100%;
+    height: auto;
+    margin: 1em;
+   
+}
+
+.container__gruaComercio{
+    background-size: auto;
+    width: 70%;
+    height: auto;
+    margin: 1em;
+   
+}
+
+.principal {
+    background-image: url("imagens/gruasQuantaidade");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 20px;
+    margin: 1em 0em 0em 0em;
+}
+
+.container__botaoWpp{
+    padding: 1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.botao_secundario {
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    margin: 1em 0em 0em 0em;
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+    text-align: center;
+}
+
+.container__titulo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 2em;
+}
+
+
+.descricao__titulo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--branco-principal);
+    margin: 0.4em;
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+}
+
+.descricao__textoDestaque{
+    color: var(--fonte-destaque);
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+    
+}
+
+.container__descricao{
+    padding: 2em; 
+}
+
+.dispositivos__listas{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item{
+    font-size: 25px;
+    color: var(--branco-principal);
+}
+
+.rodape{
+    text-align: center;
+    margin: 1em;
+}
+
+.rodape__logo{
+   align-items: center;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2em 0;
+}
+
+.top__lista{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.lista__link a{
+    padding: 1em;
+    color: var(--branco-principal);
+    text-decoration: none;
+    
+}
+
+.rodape__texto{
+    color: var(--cinza-secundario);
+    padding: 1em;
+    font-size: x-small;
+}
+
+
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
+.container__botao:hover{
+    background-color: var(--botao-azul);
+    color: var(--cor-de-fundo);
+    padding: 1.2em;
+}
